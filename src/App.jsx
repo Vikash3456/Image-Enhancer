@@ -1,6 +1,7 @@
 import React from 'react'
 import Home from './component/Home.jsx'
-
+import dotenv from 'dotenv';
+dotenv.config();
 const App = () => {
   return (
     <div  className='flex flex-col items-center  justify-center min-h-screen  bg-gray-100 py-8 px-4'>
