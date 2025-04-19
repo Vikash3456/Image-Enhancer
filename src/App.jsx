@@ -1,5 +1,6 @@
 import React from 'react'
 import Home from './component/Home.jsx'
+
 const App = () => {
   return (
     <div  className='flex flex-col items-center  justify-center min-h-screen  bg-gray-100 py-8 px-4'>
@@ -12,7 +13,6 @@ const App = () => {
         </p>
     </div>
      <  Home/>
-
     <div className='text-lg text-gray-500 mt-6'>
       Power By Vikash Kushwaha
     </div>
